@@ -11,9 +11,10 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button_openCamera"
-        android:layout_width="104dp"
-        android:layout_height="95dp"
+        android:layout_width="93dp"
+        android:layout_height="85dp"
         android:layout_marginBottom="92dp"
+        android:backgroundTint="#55E6C1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -40,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Dark "
+        android:text="Light "
         android:textOff="Dark "
         android:textColor="#fff"
         android:textOn="Light "
@@ -53,12 +54,11 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="99dp"
-        android:layout_height="73dp"
+        android:layout_height="65dp"
         android:layout_marginBottom="100dp"
         android:elevation="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/camera" />
 
